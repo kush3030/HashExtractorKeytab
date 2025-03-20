@@ -22,4 +22,9 @@ Optionally, it can attempt to **crack NTLM hashes** using Hashcat.
    git clone https://github.com/kush3030/HashExtractorKeytab.git
    cd HashExtractorKeytab
 2. **Run the Script**
+   ```bash
+   python HashExtractorKeytab.py file.keytab
+3. **Crack Extracted NTLM Hashes (Optional)**
+   ```bash
+   python HashExtractorKeytab.py file.keytab --crack --wordlist rockyou.txt
    
